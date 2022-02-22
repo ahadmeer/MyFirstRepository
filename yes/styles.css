@@ -1,0 +1,108 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.formbox1{
+    outline: none;
+   
+}
+
+fieldset{
+    
+margin-left: 250px;
+    width: 50%;
+    text-align: center;
+    border: none;
+    
+}
+fieldset legend img{
+width:20%;
+border-radius: 50%;
+
+}
+fieldset label{
+    display: block;
+  
+}
+fieldset form input{
+    margin: 5px 5px;
+    width:50%;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px ;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: rgb(211, 203, 203);
+    cursor: pointer;
+}
+fieldset form input:hover{
+    background-color: cadetblue;
+    transition: all 0.6s ease;
+   
+}
+.login1{
+   
+    display: block;
+    width:40%;
+   padding: 5px;
+   background-color: rgb(211, 203, 203);
+ font-size: larger;
+ border-top-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ border: none;
+ transition: all 0.6s ease;
+ color: purple;
+ cursor: pointer;
+ margin-left:200px;
+}
+.login1:hover{
+   
+    background-color: cadetblue;
+    color: blue;
+ }
+
+
+.signup1{
+    margin-top: 5px;
+    display: block;
+    width:40%;
+    padding: 5px;
+    background-color: rgb(211, 203, 203);
+    font-size: larger;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px ;
+    border: none;
+    transition: all 0.6s ease;
+    color: purple;
+    cursor: pointer;
+    margin-left:200px;
+}
+
+.signup1:hover{
+   
+    background-color: cadetblue;
+  color: blue;
+}
+.para{
+    font-size: x-large;
+    color: purple;
+    border-top: 2px solid purple;
+    transition: all 0.6s ease;
+}
+.para:hover{
+    color: blue;
+
+}
+.para2{
+     font-size: x-large;
+    color: purple;
+    border-bottom: 2px solid purple;
+    transition: all 0.6s ease;
+}
+.para2:hover{
+    color: blue;
+}

@@ -1,0 +1,113 @@
+.formbox{
+    outline: none;
+    border: none;
+   
+      
+}
+
+fieldset{
+    width:50%;
+    margin: 10px auto;
+    padding: 15px;
+    border: none;
+    
+   
+ 
+  
+    
+}
+
+fieldset legend{
+    margin:0px auto;
+    color:purple;
+    font-size:50px;
+   border-bottom: 5px solid purple;
+   border-radius:10px;
+}
+fieldset legend:hover{
+    color: blue;
+    transition: all 0.6s ease;
+}
+fieldset legend::before{
+    content:open-quote;
+
+}
+fieldset legend::after{
+    content:close-quote;
+
+}
+
+fieldset form input{
+    display: block;
+    margin: 5px 5px;
+   padding: 8px;
+   margin: 10px 0;
+   width: 100%;
+   border-top-left-radius:10px;
+   border-bottom-right-radius:10px ;
+   border: none;
+   outline: none;
+   background-color: rgb(211, 203, 203);
+   cursor: pointer;
+  
+}
+
+
+fieldset form input:hover{
+    background-color: cadetblue;
+    transition: all 0.6s ease;
+   
+}
+fieldset label{
+    font-weight: bold;
+    color: purple;
+  
+}
+fieldset label:hover{
+    color: blue;
+    transition: all 0.6s ease;
+}
+.signup{
+ display: block;
+ width:40%;
+ padding: 10px;
+ background-color: rgb(211, 203, 203);
+ font-size: larger;
+ border-top-left-radius:10px;
+ border-bottom-right-radius:10px ;
+ border: none;
+ transition: all 0.6s ease;
+ color: purple;
+ cursor: pointer;
+}
+.login{
+    margin-top: 5px;
+    display: block;
+    width:40%;
+   padding: 10px;
+   background-color: rgb(211, 203, 203);
+ font-size: larger;
+ border-top-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ border: none;
+ transition: all 0.6s ease;
+ color: purple;
+ cursor: pointer;
+    
+}
+.signup:hover{
+   
+    background-color: cadetblue;
+  color: blue;
+}
+.login:hover{
+   
+   background-color: cadetblue;
+   color: blue;
+}
+.formbox{
+   background-image: url(images/modern-futuristic-sci-fi-background_35913-2150.jpg); 
+   background-size: cover;
+ 
+  
+}
